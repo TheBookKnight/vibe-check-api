@@ -1,6 +1,7 @@
-def main():
-    print("Hello from vibe-check-api!")
+from fastapi import FastAPI
 
+app = FastAPI()
 
-if __name__ == "__main__":
-    main()
+@app.get("/")
+async def root():
+    return {"message": "Hi! I'm the Vibe Check API!"}

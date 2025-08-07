@@ -15,3 +15,10 @@ uv sync
 ```bash
 source .venv/bin/activate
 ```
+
+3. Run the app! It's running locally on port 8000.
+```bash
+fastapi dev main.py
+```
+
+4. View the API docs (provided by [SwaggerUI](https://github.com/swagger-api/swagger-ui)) in http://127.0.0.1:8000/docs
