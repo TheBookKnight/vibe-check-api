@@ -5,6 +5,8 @@ An LLM-powered content moderation service built with [FastAPI](https://fastapi.t
 
 Will require [uv package manager](https://docs.astral.sh/uv/getting-started/installation/) and [Docker Desktop](https://docs.docker.com/desktop/).
 
+You can install [MongoDB Compass](https://www.mongodb.com/try/download/compass) to observe data changes.
+
 1. Setup the virtual environment and install dependencies.
 ```bash
 uv venv .venv
