@@ -1,5 +1,10 @@
 # Vibe Check API
-An LLM-powered content moderation service built with [FastAPI](https://fastapi.tiangolo.com/).
+An LLM-powered content moderation service.
+
+Technologies Used:
+- [FastAPI](https://fastapi.tiangolo.com/) as web api framework
+- [Pydantic](https://docs.pydantic.dev/latest/) for data schema validation
+- [PyMongo](https://pymongo.readthedocs.io/en/stable/index.html) for connecting with MongoDB database.
 
 ## Getting Started
 
