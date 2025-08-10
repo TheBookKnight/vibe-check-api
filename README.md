@@ -38,3 +38,6 @@ make start/db
 # stops the MongoDB container
 make stop/db 
 ```
+
+## TODOs
+- May have to setup [Schema validation](https://www.mongodb.com/docs/manual/core/schema-validation/#when-to-use-schema-validation) for MongoDB container > Specifically [JSON schema validation](https://www.mongodb.com/docs/manual/core/schema-validation/specify-json-schema/#std-label-schema-validation-json)

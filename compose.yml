@@ -10,3 +10,13 @@ services:
     image: mongo:latest
     ports:
       - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ""
+      MONGO_INITDB_ROOT_PASSWORD: ""
+    volumes:
+      - type: bind
+        source: ${PWD}/db
+        target: /db
+      - type: bind
+        source: ${PWD}/scripts
+        target: /scripts
